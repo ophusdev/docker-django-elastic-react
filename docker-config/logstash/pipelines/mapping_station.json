@@ -1,0 +1,40 @@
+{
+    "template": "station",
+    "index_patterns": [
+        "station*"
+    ],
+    "settings": {
+        "number_of_shards": 1
+    },
+    "mappings": {
+        "properties": {
+            "id": {
+                "type": "integer"
+            },
+            "owner": {
+                "type": "keyword"
+            },
+            "brand": {
+                "type": "keyword"
+            },
+            "type": {
+                "type": "keyword"
+            },
+            "name": {
+                "type": "keyword"
+            },
+            "address": {
+                "type": "keyword"
+            },
+            "city": {
+                "type": "keyword"
+            },
+            "province": {
+                "type": "keyword"
+            },
+            "location": {
+                "type": "geo_point"
+            }
+        }
+    }
+}

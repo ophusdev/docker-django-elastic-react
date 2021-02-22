@@ -1,0 +1,8 @@
+Django==3.1
+djangorestframework==3.11.1
+django-rest-auth==0.9.5
+django-cors-headers==3.5.0
+elasticsearch==7.10.0
+django-environ
+elasticsearch-dsl>=7.0.0,<8.0.0
+django-cors-headers==3.5.0
